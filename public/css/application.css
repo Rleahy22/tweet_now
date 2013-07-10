@@ -1,11 +1,44 @@
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  color: white;
+  margin: 40px;
 }
 
-button a {
-  text-decoration: none;
-  color: black;
+.tweets {
+  margin: 30px;
+
+}
+
+img {
+  height: 400px;
+  width:auto;
+}
+
+html {
+  background:url('../images/friendship-black-stars-sky.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.loading {
+  position: relative;
+  top: 30%;
+  left: 30%; 
+  color: white;
+}
+
+form label {
+  color: white;
+}
+
+#post_tweets {
+  margin: 2%;
+}
+
+.tweeting {
+  position: relative;
+  top: 30%;
+  left: 30%; 
+  color: white;
 }
